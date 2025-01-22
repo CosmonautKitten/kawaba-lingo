@@ -26,7 +26,7 @@ const main = async () => {
     // Insert courses
     const courses = await db
       .insert(schema.courses)
-      .values([{ title: "Spanish", imageSrc: "/es.svg" }])
+      .values([{ title: "kawaba", imageSrc: "/kwb.svg" }])
       .returning();
 
     // For each course, insert units
@@ -82,7 +82,7 @@ const main = async () => {
               {
                 lessonId: lesson.id,
                 type: "SELECT",
-                question: 'Which one of these is "the boy"?',
+                question: 'Which one of these is "small"?',
                 order: 3,
               },
               {
@@ -125,23 +125,23 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "el hombre",
-                  imageSrc: "/man.svg",
-                  audioSrc: "/es_man.mp3",
+                  text: "ben",
+                  imageSrc: "/ben.svg",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "la mujer",
-                  imageSrc: "/woman.svg",
-                  audioSrc: "/es_woman.mp3",
+                  text: "pon",
+                  imageSrc: "/pon.svg",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el chico",
-                  imageSrc: "/boy.svg",
-                  audioSrc: "/es_boy.mp3",
+                  text: "benko",
+                  imageSrc: "/benko.svg",
+                  audioSrc: "",
                 },
               ]);
             }
@@ -150,24 +150,24 @@ const main = async () => {
               await db.insert(schema.challengeOptions).values([
                 {
                   challengeId: challenge.id,
+                  correct: false,
+                  text: "ben",
+                  imageSrc: "/ben.svg",
+                  audioSrc: "",
+                },
+                {
+                  challengeId: challenge.id,
                   correct: true,
-                  text: "la mujer",
-                  imageSrc: "/woman.svg",
-                  audioSrc: "/es_woman.mp3",
+                  text: "pon",
+                  imageSrc: "/pon.svg",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el chico",
-                  imageSrc: "/boy.svg",
-                  audioSrc: "/es_boy.mp3",
-                },
-                {
-                  challengeId: challenge.id,
-                  correct: false,
-                  text: "el hombre",
-                  imageSrc: "/man.svg",
-                  audioSrc: "/es_man.mp3",
+                  text: "benko",
+                  imageSrc: "/benko.svg",
+                  audioSrc: "",
                 },
               ]);
             }
@@ -177,23 +177,23 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "la mujer",
-                  imageSrc: "/woman.svg",
-                  audioSrc: "/es_woman.mp3",
+                  text: "ga",
+                  imageSrc: "/ga.svg",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el hombre",
-                  imageSrc: "/man.svg",
-                  audioSrc: "/es_man.mp3",
+                  text: "ko",
+                  imageSrc: "/ko.svg",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "el chico",
-                  imageSrc: "/boy.svg",
-                  audioSrc: "/es_boy.mp3",
+                  text: "ja",
+                  imageSrc: "/ja.svg",
+                  audioSrc: "",
                 },
               ]);
             }
