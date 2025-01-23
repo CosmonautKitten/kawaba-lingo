@@ -76,7 +76,7 @@ export const Card = ({
           className={cn(
             "text-sm text-neutral-600 lg:text-base",
             selected && "text-sky-500",
-            selected && status === "correct" && "text-green-500",
+            selected && status === "correct" && "text-[green-500]",
             selected && status === "wrong" && "text-rose-500"
           )}
         >
@@ -89,7 +89,7 @@ export const Card = ({
             selected && "border-sky-300 text-sky-500",
             selected &&
               status === "correct" &&
-              "border-green-500 text-green-500",
+              "border-[green-500] text-green-500",
             selected && status === "wrong" && "border-rose-500 text-rose-500"
           )}
         >

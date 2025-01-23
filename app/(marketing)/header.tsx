@@ -22,7 +22,7 @@ import Banner from "./banner";
 
 export const Header = () => {
   const { isSignedIn } = useAuth();
-  const [hideBanner, setHideBanner] = useState(false);
+  const [hideBanner, setHideBanner] = useState(true);
 
   return (
     <>
@@ -38,7 +38,7 @@ export const Header = () => {
           <Link href="/" className="flex items-center gap-x-3 pb-7 pl-4 pt-8">
             <Image src="/mascot.svg" alt="Mascot" height={40} width={40} />
 
-            <h1 className="text-2xl font-extrabold tracking-wide text-green-600">
+            <h1 className="text-2xl font-extrabold tracking-wide text-[#0a2f52]">
               Lingo
             </h1>
           </Link>
