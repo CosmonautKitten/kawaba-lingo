@@ -40,12 +40,12 @@ export const siteConfig: Metadata = {
     "css",
   ] as Array<string>,
   authors: {
-    name: "Sanidhya Kumar Verma",
-    url: "https://github.com/sanidhyy",
+    name: "Avery Maple",
+    url: "https://github.com/CosmonautKitten",
   },
 } as const;
 
 export const links = {
-  sourceCode: "https://github.com/sanidhyy/duolingo-clone",
-  email: "sanidhya.verma12345@gmail.com",
+  sourceCode: "https://github.com/CosmonautKitten/kawaba-lingo",
+  email: "avery@maple.id.au",
 } as const;

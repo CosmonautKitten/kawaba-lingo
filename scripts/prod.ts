@@ -183,16 +183,16 @@ const main = async () => {
                 },
                 {
                   challengeId: challenge.id,
-                  correct: true,
-                  text: "ko",
-                  imageSrc: "/ko.svg",
+                  correct: false,
+                  text: "pon",
+                  imageSrc: "/pon.svg",
                   audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
-                  correct: false,
-                  text: "pon",
-                  imageSrc: "/pon.svg",
+                  correct: true,
+                  text: "ko",
+                  imageSrc: "/ko.svg",
                   audioSrc: "",
                 },
               ]);
