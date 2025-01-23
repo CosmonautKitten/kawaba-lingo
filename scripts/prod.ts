@@ -100,19 +100,19 @@ const main = async () => {
               {
                 lessonId: lesson.id,
                 type: "SELECT",
-                question: 'Which one of these is "the robot"?',
+                question: 'Which one of these is "the girl"?',
                 order: 6,
               },
               {
                 lessonId: lesson.id,
                 type: "SELECT",
-                question: 'Which one of these is "the girl"?',
+                question: 'Which one of these is "the animal"?',
                 order: 7,
               },
               {
                 lessonId: lesson.id,
                 type: "ASSIST",
-                question: '"the zombie"',
+                question: '"the boy"',
                 order: 8,
               },
             ])
@@ -177,8 +177,8 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "ga",
-                  imageSrc: "/ga.svg",
+                  text: "ben",
+                  imageSrc: "/ben.svg",
                   audioSrc: "",
                 },
                 {
@@ -191,8 +191,8 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "ja",
-                  imageSrc: "/ja.svg",
+                  text: "pon",
+                  imageSrc: "/pon.svg",
                   audioSrc: "",
                 },
               ]);
@@ -204,19 +204,19 @@ const main = async () => {
                   challengeId: challenge.id,
                   correct: false,
                   text: "pon",
-                  audioSrc: "/es_woman.mp3",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: true,
                   text: "ben",
-                  audioSrc: "/es_man.mp3",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
                   text: "benko",
-                  audioSrc: "/es_boy.mp3",
+                  audioSrc: "",
                 },
               ]);
             }
@@ -251,24 +251,24 @@ const main = async () => {
               await db.insert(schema.challengeOptions).values([
                 {
                   challengeId: challenge.id,
+                  correct: false,
+                  text: "benko",
+                  imageSrc: "/benko.svg",
+                  audioSrc: "",
+                },
+                {
+                  challengeId: challenge.id,
+                  correct: false,
+                  text: "pon",
+                  imageSrc: "/pon.svg",
+                  audioSrc: "",
+                },
+                {
+                  challengeId: challenge.id,
                   correct: true,
-                  text: "el robot",
-                  imageSrc: "/robot.svg",
-                  audioSrc: "/es_robot.mp3",
-                },
-                {
-                  challengeId: challenge.id,
-                  correct: false,
-                  text: "el zombie",
-                  imageSrc: "/zombie.svg",
-                  audioSrc: "/es_zombie.mp3",
-                },
-                {
-                  challengeId: challenge.id,
-                  correct: false,
-                  text: "el chico",
-                  imageSrc: "/boy.svg",
-                  audioSrc: "/es_boy.mp3",
+                  text: "ponko",
+                  imageSrc: "/ponko.svg",
+                  audioSrc: "",
                 },
               ]);
             }
@@ -278,23 +278,23 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "la nina",
-                  imageSrc: "/girl.svg",
-                  audioSrc: "/es_girl.mp3",
+                  text: "pun",
+                  imageSrc: "/pun.svg",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el zombie",
-                  imageSrc: "/zombie.svg",
-                  audioSrc: "/es_zombie.mp3",
+                  text: "pon",
+                  imageSrc: "/pon.svg",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el hombre",
-                  imageSrc: "/man.svg",
-                  audioSrc: "/es_man.mp3",
+                  text: "ben",
+                  imageSrc: "/ben.svg",
+                  audioSrc: "",
                 },
               ]);
             }
@@ -304,20 +304,20 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "la mujer",
-                  audioSrc: "/es_woman.mp3",
+                  text: "ponko",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "el zombie",
-                  audioSrc: "/es_zombie.mp3",
+                  text: "benko",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el chico",
-                  audioSrc: "/es_boy.mp3",
+                  text: "ben",
+                  audioSrc: "",
                 },
               ]);
             }
