@@ -229,6 +229,7 @@ export const getUserSubscription = cache(async () => {
   // Always return an active subscription
   return {
     isActive: true,
+    stripeCustomerId: "cus_NffrFeUfNV2Hib",
   };
 });
 

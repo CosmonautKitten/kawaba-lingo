@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="171.99998"
-   height="172"
-   viewBox="0 0 45.508328 45.508333"
+   width="179.99998"
+   height="180"
+   viewBox="0 0 47.624995 47.625"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="2.2809009"
-     inkscape:cx="12.05664"
-     inkscape:cy="74.312743"
+     inkscape:cx="71.024568"
+     inkscape:cy="58.091081"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -36,8 +36,8 @@
     <inkscape:grid
        id="grid1"
        units="px"
-       originx="-252.41248"
-       originy="-220.66249"
+       originx="-251.35414"
+       originy="-219.60415"
        spacingx="1.0583333"
        spacingy="1.0583333"
        empcolor="#0099e5"
@@ -60,9 +60,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-252.41249,-220.66249)">
+     transform="translate(-251.35416,-219.60415)">
     <path
-       style="fill:none;stroke:#000000;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        d="m 121.70833,190.49999 c 4.15607,0 8.28654,-1.7109 11.22532,-4.64968 2.93878,-2.93878 4.64968,-7.06925 4.64968,-11.22532 0,-4.15607 -1.7109,-8.28654 -4.64968,-11.22532 -2.93878,-2.93878 -7.06925,-4.64968 -11.22532,-4.64968 -4.15607,0 -8.28654,1.7109 -11.22532,4.64968 -2.93878,2.93878 -4.64968,7.06925 -4.64968,11.22532 0,4.15607 1.7109,8.28654 4.64968,11.22532 2.93878,2.93878 7.06925,4.64968 11.22532,4.64968 z"
        id="path3-7"
        inkscape:path-effect="#path-effect3-8"
@@ -70,7 +70,7 @@
        sodipodi:nodetypes="sssss"
        transform="translate(153.45832,63.499997)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round"
+       style="fill:none;stroke:#000000;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        d="m 253.99999,264.58332 21.16666,-10.58333 21.16667,10.58333"
        id="path1" />
   </g>

@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="171.99998"
-   height="171.99998"
-   viewBox="0 0 45.508328 45.508329"
+   width="180"
+   height="180"
+   viewBox="0 0 47.624999 47.625"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="1.1404504"
-     inkscape:cx="283.65985"
-     inkscape:cy="-55.679755"
+     inkscape:zoom="2.2809008"
+     inkscape:cx="117.93586"
+     inkscape:cy="19.509836"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -36,8 +36,8 @@
     <inkscape:grid
        id="grid1"
        units="px"
-       originx="-19.579162"
-       originy="-315.91248"
+       originx="-18.520826"
+       originy="-314.85412"
        spacingx="1.0583333"
        spacingy="1.0583333"
        empcolor="#0099e5"
@@ -60,13 +60,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-19.579163,-315.91248)">
+     transform="translate(-18.520828,-314.85415)">
     <path
-       style="fill:none;stroke:#000000;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        d="m 21.166663,359.83331 v -10.58333 h 42.33333 v 10.58333"
        id="path2" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        d="m 121.70833,190.49999 c 4.15607,0 8.28654,-1.7109 11.22532,-4.64968 2.93878,-2.93878 4.64968,-7.06925 4.64968,-11.22532 0,-4.15607 -1.7109,-8.28654 -4.64968,-11.22532 -2.93878,-2.93878 -7.06925,-4.64968 -11.22532,-4.64968 -4.15607,0 -8.28654,1.7109 -11.22532,4.64968 -2.93878,2.93878 -4.64968,7.06925 -4.64968,11.22532 0,4.15607 1.7109,8.28654 4.64968,11.22532 2.93878,2.93878 7.06925,4.64968 11.22532,4.64968 z"
        id="path3"
        inkscape:path-effect="#path-effect3"
