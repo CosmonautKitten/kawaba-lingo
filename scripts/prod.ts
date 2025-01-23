@@ -115,6 +115,12 @@ const main = async () => {
                 question: '"the boy"',
                 order: 8,
               },
+              {
+                lessonId: lesson.id,
+                type: "SELECT",
+                question: 'Which one of these is "the person"?',
+                order: 9,
+              },
             ])
             .returning();
 
@@ -241,7 +247,7 @@ const main = async () => {
                   challengeId: challenge.id,
                   correct: true,
                   text: "benko",
-                  imageSrc: "benko.svg",
+                  imageSrc: "/benko.svg",
                   audioSrc: "",
                 },
               ]);
@@ -317,6 +323,32 @@ const main = async () => {
                   challengeId: challenge.id,
                   correct: false,
                   text: "ben",
+                  audioSrc: "",
+                },
+              ]);
+            }
+
+            if (challenge.order === 9) {
+              await db.insert(schema.challengeOptions).values([
+                {
+                  challengeId: challenge.id,
+                  correct: true,
+                  text: "ben",
+                  imageSrc: "/ben.svg",
+                  audioSrc: "",
+                },
+                {
+                  challengeId: challenge.id,
+                  correct: false,
+                  text: "pon",
+                  imageSrc: "/pon.svg",
+                  audioSrc: "",
+                },
+                {
+                  challengeId: challenge.id,
+                  correct: false,
+                  text: "sa",
+                  imageSrc: "/sa.svg",
                   audioSrc: "",
                 },
               ]);
