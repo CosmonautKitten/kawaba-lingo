@@ -228,8 +228,13 @@ export const getUserSubscription = cache(async () => {
 
   // Always return an active subscription
   return {
+    id: 1, // Mock subscription ID
+    userId: "user_12345", // Mock user ID
+    stripeCustomerId: "cus_12345",
+    stripeSubscriptionId: "sub_12345", // Mock subscription ID
+    stripePriceId: "price_12345", // Mock price ID
+    stripeCurrentPeriodEnd: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days from now
     isActive: true,
-    stripeCustomerId: "cus_NffrFeUfNV2Hib",
   };
 });
 
