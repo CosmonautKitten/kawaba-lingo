@@ -94,7 +94,7 @@ const main = async () => {
               {
                 lessonId: lesson.id,
                 type: "SELECT",
-                question: 'Which one of these is "the zombie"?',
+                question: 'Which one of these is "the boy"?',
                 order: 5,
               },
               {
@@ -183,14 +183,14 @@ const main = async () => {
                 },
                 {
                   challengeId: challenge.id,
-                  correct: false,
+                  correct: true,
                   text: "ko",
                   imageSrc: "/ko.svg",
                   audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
-                  correct: true,
+                  correct: false,
                   text: "ja",
                   imageSrc: "/ja.svg",
                   audioSrc: "",
@@ -203,19 +203,19 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "la mujer",
+                  text: "pon",
                   audioSrc: "/es_woman.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "el hombre",
+                  text: "ben",
                   audioSrc: "/es_man.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el chico",
+                  text: "benko",
                   audioSrc: "/es_boy.mp3",
                 },
               ]);
@@ -226,23 +226,23 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el hombre",
-                  imageSrc: "/man.svg",
-                  audioSrc: "/es_man.mp3",
+                  text: "ben",
+                  imageSrc: "/ben.svg",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "la mujer",
-                  imageSrc: "/woman.svg",
-                  audioSrc: "/es_woman.mp3",
+                  text: "pon",
+                  imageSrc: "/pon.svg",
+                  audioSrc: "",
                 },
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "el zombie",
-                  imageSrc: "/zombie.svg",
-                  audioSrc: "/es_zombie.mp3",
+                  text: "benko",
+                  imageSrc: "benko.svg",
+                  audioSrc: "",
                 },
               ]);
             }
