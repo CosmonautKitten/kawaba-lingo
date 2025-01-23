@@ -206,6 +206,7 @@ export const getLessonPercentage = cache(async () => {
 });
 
 export const getUserSubscription = cache(async () => {
+  /**
   const { userId } = auth();
 
   if (!userId) return null;
@@ -216,7 +217,7 @@ export const getUserSubscription = cache(async () => {
 
   if (!data) return null;
 
-  /**const isActive =
+  const isActive =
     data.stripePriceId &&
     data.stripeCurrentPeriodEnd?.getTime() + DAY_IN_MS > Date.now();
 
@@ -227,7 +228,6 @@ export const getUserSubscription = cache(async () => {
 
   // Always return an active subscription
   return {
-    ...data,
     isActive: true,
   };
 });
